@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Key Code Event</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    <link href="normalize.css" rel ="stylesheet">
+    <link href ="style.css"  rel ="stylesheet">
+</head>
+<body>
+    <main class="main-container">
+        <div class="start__link" id="start__link">Press any key to get the JavaScript event keycode</div>
+        <div class="visually__hidden code__display__block">
+            <p class="code__display" id="code__display">32</p>
+        </div>
+        <div class="visually__hidden code__cards">
+            <div class="item__key card">
+                <div class="card__header">
+                    <p>event.key</p>
+                </div>
+                <div class="card__main"></div>
+            </div>
+            <div class="item__location card">
+                <div class="card__header">
+                    <p>event.location</p>
+                </div>
+                <div class="card__main"></div>
+            </div>
+            <div class="item__which card">
+                <div class="card__header">
+                    <p>event.which</p>
+                </div>
+                <div class="card__main"></div>
+            </div>
+            <div class="item__code card">
+                <div class="card__header">
+                    <p>event.code</p>
+                </div>
+                <div class="card__main"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="keycode-render.js"></script>
+</body>
+</html>
